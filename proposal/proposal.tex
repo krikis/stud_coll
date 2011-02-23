@@ -1,0 +1,41 @@
+\documentclass[a4paper]{article}
+\usepackage{latexsym}
+\usepackage[a4paper]{geometry}
+\usepackage{color}
+\usepackage{listings}
+\usepackage[pdftex]{graphicx}
+\usepackage{subfig}
+\usepackage{amsmath}
+
+%Boldface text for type writer font
+\usepackage{bold-extra} %\DeclareFontShape{OT1}{cmtt}{bx}{n}{<5><6><7><8><9><10><10.95><12><14.4><17.28><20.74><24.88>cmttb10}{}
+
+%Break words properly at the end of a line (which isn't sloppy...)
+\sloppy
+
+\title{\textsf{Context Inconsistency Management \\Using Partial Constraint Checking}}
+\author{Samuel Esposito \and Alexander Jurjens}
+
+
+
+\begin{document}
+\maketitle
+
+%% Abstract section.
+\abstract{
+Thanks to the pervasive computing paradigm more and more computer systems in utility buildings and industry are context-aware. They use a representation of the world they operate in to reduce the human-computer interaction necessary for this operation. Unfortunately reasoning based on contexts is not without flaws and context inconsistencies are the main reason for context-aware applications' incongruous behavior. Detecting context inconsistencies using traditional context modeling is very computer intensive, making timely conflict resolution unfeasible in most settings.\\
+~\\
+In this paper we present two complementary approaches for improving the mitigation of context inconsistencies. First we extend the traditional ontology based context modeling approach with context lifecycles to more accurately represent the world surrounding the application. Many of the conflicts in context reasoning can simply be resolved using information about the lifecycle state of a set of specific contexts. Secondly we propose partial constraint checking for more efficiently identifying and timely resolving context inconsistencies at runtime. By adding an extra constraint layer to the traditional ontology model, conflicts can be resolved by checking constraints or partial constraints only locally in the ontology. This dramatically improves performance compared to iterative evaluation of an entire ontology.\\
+~\\
+{\bf Keywords}: Pervasive Computing, Ontology Model, Context Lifecycle, Inconsistency Resolution\\
+~\\
+{\bf Field of Research}: Pervasive Computing
+{\bf Topic}: Context Inconsistencies
+{\bf Focus / Research Question}: Improving the detection and resolution of context inconsitencies
+{\bf Expected Findings / Results}: The performance of conflict detection can dramatically be improved by partial constraint checking and the resolution of context conflicts is aided by adding lifecycle information to the ontology model.
+} % end of abstract
+
+
+
+
+\end{document}
