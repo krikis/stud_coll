@@ -2,61 +2,53 @@ This is BibTeX, Version 0.99c (TeX Live/MacPorts 2009_6)
 The top-level auxiliary file: paper.aux
 The style file: abbrv.bst
 Database file #1: paper.bib
-Warning--I didn't find a database entry for "kitware2003"
-Warning--I didn't find a database entry for "Max:1995:OMF"
-Warning--I didn't find a database entry for "notes2002"
-Warning--I didn't find a database entry for "ware:2004:IVP"
-Warning--I didn't find a database entry for "kindlmann:1999:SAG"
-Warning--I didn't find a database entry for "levoy:1989:DSV"
-Warning--I didn't find a database entry for "Lorensen:1987:MCA"
-Warning--I didn't find a database entry for "Nielson:1991:TAD"
-Name 1 in "Y. Bu, S. Chen, J. Li, X. Tao, and J. Lu" has a comma at the end for entry bu:2006:CCM
+Illegal end of database file---line 32 of file paper.bib
+ :   doi = {http://dx.doi.org/10.1145/1656250.1656253}
+ :                                                    
+I'm skipping whatever remains of this entry
+Name 1 in "Chang Xu, S.C. Cheung, W.K. Chan, and Chunyang Ye" has a comma at the end for entry xu:2010:PCC
 while executing---line 1049 of file abbrv.bst
-Too many commas in name 1 of "Y. Bu, S. Chen, J. Li, X. Tao, and J. Lu" for entry bu:2006:CCM
-while executing---line 1049 of file abbrv.bst
-Name 1 in "Y. Bu, S. Chen, J. Li, X. Tao, and J. Lu" has a comma at the end for entry bu:2006:CCM
+Name 1 in "Chang Xu, S.C. Cheung, W.K. Chan, and Chunyang Ye" has a comma at the end for entry xu:2010:PCC
 while executing---line 1090 of file abbrv.bst
-Too many commas in name 1 of "Y. Bu, S. Chen, J. Li, X. Tao, and J. Lu" for entry bu:2006:CCM
-while executing---line 1090 of file abbrv.bst
-You've used 1 entry,
+You've used 3 entries,
             2118 wiz_defined-function locations,
-            518 strings with 4073 characters,
-and the built_in function-call counts, 353 in all, are:
-= -- 33
-> -- 13
-< -- 0
-+ -- 5
-- -- 4
-* -- 26
-:= -- 65
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 5
+            522 strings with 4593 characters,
+and the built_in function-call counts, 1499 in all, are:
+= -- 133
+> -- 114
+< -- 2
++ -- 46
+- -- 42
+* -- 125
+:= -- 261
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 11
-empty$ -- 29
-format.name$ -- 4
-if$ -- 70
+cite$ -- 3
+duplicate$ -- 43
+empty$ -- 82
+format.name$ -- 42
+if$ -- 297
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 3
+int.to.str$ -- 3
+missing$ -- 4
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 30
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 27
 quote$ -- 0
-skip$ -- 8
+skip$ -- 35
 stack$ -- 0
-substring$ -- 32
-swap$ -- 1
-text.length$ -- 0
+substring$ -- 69
+swap$ -- 13
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 10
 warning$ -- 0
-while$ -- 3
-width$ -- 2
-write$ -- 13
-(There were 4 error messages)
+while$ -- 10
+width$ -- 4
+write$ -- 36
+(There were 3 error messages)

@@ -1,8 +1,24 @@
 \begin{thebibliography}{1}
 
+\bibitem{xu:2010:PCC}
+W.~C. Chang~Xu, S.C.~Cheung and C.~Ye.
+\newblock Partial constraint checking for context consistency in pervasive
+  computing.
+\newblock {\em ACM Transactions on Software Engineering and Methodology}, 19,
+  2010.
+
 \bibitem{bu:2006:CCM}
-J.~L. X.~T. Y.~Bu, S.~Chen and J.~Lu.
-\newblock Context consistency management using ontology based model.
-\newblock {\em ser. Lecture Notes in Computer Science}, 4254:741–755, 2006.
+T.~Grust, H.~H{\"o}pfner, A.~Illarramendi, S.~Jablonski, M.~Mesiti,
+  S.~M{\"u}ller, P.-L. Patranjan, K.-U. Sattler, M.~Spiliopoulou, J.~Wijsen,
+  Y.~Bu, S.~Chen, J.~Li, X.~Tao, and J.~Lu.
+\newblock {\em Context Consistency Management Using Ontology Based Model},
+  volume 4254, pages 741--755.
+\newblock Springer Berlin / Heidelberg, 2006.
+
+\bibitem{ko:2009:IOFO}
+H.~Kong, G.~Xue, X.~He, and S.~Yao.
+\newblock A proposal to handle inconsistent ontology with fuzzy owl.
+\newblock {\em Computer Science and Information Engineering, World Congress
+  on}, 1:599--603, 2009.
 
 \end{thebibliography}

@@ -244,11 +244,7 @@
 %\newcommand{\journalid}[1]{\renewcommand{\journalidtxt}{#1}}
 
 %%MEGHAN Comment from here
-\newcommand{\manuscriptnotetxt}{
-Manuscript received 31 March 2008; accepted 1 August 2008; posted online 19 October 2008; mailed on 13 October 2008.\par
-For information on obtaining reprints of this article, please send
-e-mail to: tvcg@computer.org .
-}
+\newcommand{\manuscriptnotetxt}{}
 %% to here to not use the blank
 
 %% MEGHAN NOTE FOR BLANK SPACING
