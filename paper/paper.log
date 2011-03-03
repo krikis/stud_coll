@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  3 MAR 2011 17:22
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  3 MAR 2011 21:06
 entering extended mode
  %&-line parsing enabled.
 **paper.tex
@@ -188,17 +188,17 @@ Overfull \hbox (1.626pt too wide) in paragraph at lines 128--129
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 139.
 [2] (./paper.bbl) [3
 
 ] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 885 strings out of 495062
- 11698 string characters out of 3181987
+ 886 strings out of 495062
+ 11714 string characters out of 3181987
  69645 words of memory out of 3000000
- 4085 multiletter control sequences out of 15000+200000
+ 4086 multiletter control sequences out of 15000+200000
  29891 words of font info for 69 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  29i,8n,21p,1712b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on paper.dvi (3 pages, 20328 bytes).
+Output written on paper.dvi (3 pages, 23880 bytes).

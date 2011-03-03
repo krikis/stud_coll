@@ -2,53 +2,54 @@ This is BibTeX, Version 0.99c (TeX Live/MacPorts 2009_6)
 The top-level auxiliary file: paper.aux
 The style file: abbrv.bst
 Database file #1: paper.bib
-Illegal end of database file---line 32 of file paper.bib
- :   doi = {http://dx.doi.org/10.1145/1656250.1656253}
- :                                                    
+I was expecting a `,' or a `}'---line 34 of file paper.bib
+ :   
+ :   @article{Buckley1995245,
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Name 1 in "Chang Xu, S.C. Cheung, W.K. Chan, and Chunyang Ye" has a comma at the end for entry xu:2010:PCC
 while executing---line 1049 of file abbrv.bst
 Name 1 in "Chang Xu, S.C. Cheung, W.K. Chan, and Chunyang Ye" has a comma at the end for entry xu:2010:PCC
 while executing---line 1090 of file abbrv.bst
-You've used 3 entries,
+You've used 4 entries,
             2118 wiz_defined-function locations,
-            522 strings with 4593 characters,
-and the built_in function-call counts, 1499 in all, are:
-= -- 133
-> -- 114
+            530 strings with 4678 characters,
+and the built_in function-call counts, 1804 in all, are:
+= -- 164
+> -- 121
 < -- 2
-+ -- 46
-- -- 42
-* -- 125
-:= -- 261
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 29
++ -- 49
+- -- 44
+* -- 148
+:= -- 311
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 33
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 43
-empty$ -- 82
-format.name$ -- 42
-if$ -- 297
+cite$ -- 4
+duplicate$ -- 54
+empty$ -- 111
+format.name$ -- 44
+if$ -- 362
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 4
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 30
+int.to.str$ -- 4
+missing$ -- 5
+newline$ -- 23
+num.names$ -- 8
+pop$ -- 32
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 30
 quote$ -- 0
-skip$ -- 35
+skip$ -- 42
 stack$ -- 0
-substring$ -- 69
-swap$ -- 13
+substring$ -- 101
+swap$ -- 14
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
+type$ -- 14
 warning$ -- 0
-while$ -- 10
-width$ -- 4
-write$ -- 36
+while$ -- 13
+width$ -- 5
+write$ -- 47
 (There were 3 error messages)
