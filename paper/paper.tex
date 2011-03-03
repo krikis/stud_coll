@@ -120,6 +120,10 @@ Now that we have an efficient method for detecting inconsistencies the task of r
 This is based on the assumption that contexts that are most stably perceived by a system are most likely to be correct. This assumption is applicable to most of the environments in which pervasive systems run and is applied in many domains as a domain specific approach~\cite{xu:2010:PCC}.
 
 \section{Fuzzy Ontologies}
+In pervasive computing traditionally first order logic is used to model the environment of an application. This results in a so called ontology based context model and every observation that does not exactly fit in this model results into a conflict that leads to misadjusted behavior in applications unless they are timely detected and resolved~\cite{xu:2010:PCC}. Because it is impossible to perfectly model the unpredictive environment in which context-aware applications run, it would be nice if the context model was more resilient to unexpected observations. As we illustrate in the case study below, this can be obtained by using fuzzy ontologies.
+\subsection{Case Study}
+Suppose we want to build a context-aware application that has certain notion of teacher's activities to assist them in the best possible way (for instance automatically opening slides when a lecture starts). In the traditional approach we could build an ontology specifying where lectures take place that a lecture starts when the teacher stands at the lectern. If now an unpredicted observation is made (sensor cross read or teacher momentarily leaves the room), an inconsistency occurs that has to be resolved for the application to proceed normally. In the fuzzy ontology approach these unpredictive events can simply be modeled so that the ontology is more robust and always yields the most apt interpretation of the environment. A simplified example of such an ontology is depicted in Fig.~\ref{fig:fuzzy}.
+
 
 better modeling
 training required

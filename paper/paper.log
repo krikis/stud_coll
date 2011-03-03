@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  3 MAR 2011 15:49
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  3 MAR 2011 16:35
 entering extended mode
  %&-line parsing enabled.
 **paper.tex
@@ -181,14 +181,21 @@ Overfull \hbox (1.626pt too wide) in paragraph at lines 116--117
  [][] 
  []
 
-(./paper.bbl) [2] (./paper.aux) ) 
+
+LaTeX Warning: Reference `fig:fuzzy' on page 2 undefined on input line 125.
+
+(./paper.bbl) [2] (./paper.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 874 strings out of 495062
- 11550 string characters out of 3181987
+ 875 strings out of 495062
+ 11561 string characters out of 3181987
  69645 words of memory out of 3000000
- 4075 multiletter control sequences out of 15000+200000
+ 4076 multiletter control sequences out of 15000+200000
  27222 words of font info for 63 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  29i,7n,21p,1712b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on paper.dvi (2 pages, 14648 bytes).
+Output written on paper.dvi (2 pages, 16652 bytes).
