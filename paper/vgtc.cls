@@ -244,7 +244,11 @@
 %\newcommand{\journalid}[1]{\renewcommand{\journalidtxt}{#1}}
 
 %%MEGHAN Comment from here
-\newcommand{\manuscriptnotetxt}{}
+\newcommand{\manuscriptnotetxt}{
+Manuscript received 31 March 2008; accepted 1 August 2008; posted online 19 October 2008; mailed on 13 October 2008.\par
+For information on obtaining reprints of this article, please send
+e-mail to: tvcg@computer.org .
+}
 %% to here to not use the blank
 
 %% MEGHAN NOTE FOR BLANK SPACING
@@ -618,25 +622,25 @@
         \renewcommand{\baselinestretch}{1.66}\selectfont%
     \fi%
     \ifvgtcjournal% no copyrightspace for journal, but authorfooter
-      \ifvgtc@review\else
-        \renewcommand{\thefootnote}{}%
-        \footnotetext[0]{
-          \begin{flushleft}
-          \vskip -6pt
-          \begin{list}{\textbullet}{
-            \setlength{\partopsep}{0pt}
-            \setlength{\topsep}{0pt}
-            \setlength{\itemsep}{-2pt}
-            \setlength{\itemindent}{-4pt}
-            \setlength{\leftmargin}{12pt}}
-            \authorfootertext
-          \end{list}
-          \vskip 4pt
-          \ifvgtc@preprint\else\textit{\manuscriptnotetxt}\fi
-          \end{flushleft}
-        }%
-        \renewcommand{\thefootnote}{\arabic{footnote}}
-      \fi
+      % \ifvgtc@review\else
+      %   \renewcommand{\thefootnote}{}%
+      %   \footnotetext[0]{
+      %     \begin{flushleft}
+      %     \vskip -6pt
+      %     \begin{list}{\textbullet}{
+      %       \setlength{\partopsep}{0pt}
+      %       \setlength{\topsep}{0pt}
+      %       \setlength{\itemsep}{-2pt}
+      %       \setlength{\itemindent}{-4pt}
+      %       \setlength{\leftmargin}{12pt}}
+      %       \authorfootertext
+      %     \end{list}
+      %     \vskip 4pt
+      %     \ifvgtc@preprint\else\textit{\manuscriptnotetxt}\fi
+      %     \end{flushleft}
+      %   }%
+      %   \renewcommand{\thefootnote}{\arabic{footnote}}
+      % \fi
     \else%
         \ifhavecopyrightspace\copyrightspace\fi%
         \ifx\vgtc@abstxt\vgtc@empty \else%
