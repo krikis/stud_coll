@@ -1,54 +1,52 @@
 This is BibTeX, Version 0.99c (TeX Live/MacPorts 2009_6)
 The top-level auxiliary file: paper.aux
-The style file: abbrv.bst
+The style file: unsrt.bst
 Database file #1: paper.bib
 Illegal end of database file---line 32 of file paper.bib
  :   doi = {http://dx.doi.org/10.1145/1656250.1656253}
  :                                                    
 I'm skipping whatever remains of this entry
 Name 1 in "Chang Xu, S.C. Cheung, W.K. Chan, and Chunyang Ye" has a comma at the end for entry xu:2010:PCC
-while executing---line 1049 of file abbrv.bst
-Name 1 in "Chang Xu, S.C. Cheung, W.K. Chan, and Chunyang Ye" has a comma at the end for entry xu:2010:PCC
-while executing---line 1090 of file abbrv.bst
+while executing---line 944 of file unsrt.bst
 You've used 3 entries,
-            2118 wiz_defined-function locations,
-            522 strings with 4593 characters,
-and the built_in function-call counts, 1499 in all, are:
-= -- 133
-> -- 114
+            1791 wiz_defined-function locations,
+            470 strings with 4402 characters,
+and the built_in function-call counts, 954 in all, are:
+= -- 72
+> -- 69
 < -- 2
-+ -- 46
-- -- 42
-* -- 125
-:= -- 261
++ -- 24
+- -- 21
+* -- 74
+:= -- 162
 add.period$ -- 9
 call.type$ -- 3
-change.case$ -- 29
+change.case$ -- 2
 chr.to.int$ -- 0
 cite$ -- 3
-duplicate$ -- 43
-empty$ -- 82
-format.name$ -- 42
-if$ -- 297
+duplicate$ -- 37
+empty$ -- 73
+format.name$ -- 21
+if$ -- 206
 int.to.chr$ -- 0
 int.to.str$ -- 3
 missing$ -- 4
 newline$ -- 18
-num.names$ -- 6
-pop$ -- 30
+num.names$ -- 3
+pop$ -- 8
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 0
 quote$ -- 0
-skip$ -- 35
+skip$ -- 24
 stack$ -- 0
-substring$ -- 69
+substring$ -- 53
 swap$ -- 13
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
+type$ -- 0
 warning$ -- 0
-while$ -- 10
+while$ -- 7
 width$ -- 4
 write$ -- 36
-(There were 3 error messages)
+(There were 2 error messages)
