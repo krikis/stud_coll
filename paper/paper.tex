@@ -28,6 +28,7 @@
 \usepackage{mathptmx}
 \usepackage{graphicx}
 \usepackage{times}
+\usepackage{amsmath}
 
 %% We encourage the use of mathptmx for consistent usage of times font
 %% throughout the proceedings. However, if you encounter conflicts
@@ -138,15 +139,6 @@ Interestingly a fuzzy ontology has some tree-like structure that allows for very
 
 Note that it is possible to extend the simple fuzzy ontology from the use case by specifying start and transition probabilities for the higher-level contexts, just as hidden markov models\footnote{http://en.wikipedia.org/wikiHidden\_Markov\_model} do, and other information such as the expected lecture time window (fuzzified of course~\cite{Buckley1995245}).
 
-
-better modeling
-training required
-maybe slower
-extensive research necessary
-
-HMM
-Forward-backward algorithm
-
 \section{Discussion}
 In this article we started with presenting partial constraint checking: an efficient algorithm for timely detecting inconsistencies in huge sets of contexts which change very frequently. Partial constraint checking was 15 times as efficient as the traditional gready approach and reduced the conflict detection miss rate from 52.2\% to 0.1\%. This algorithm is clearly a dramatic improvement of the traditional approach and vital to any context aware application that has to handle high-frequently generated contexts.
 
@@ -158,32 +150,29 @@ When using fuzzy ontologies one however has to take into account the required tr
 \section{Conclusion}
 In conclusion we can say that the partial constraint checking algorithm can dramatically improve the performance of context-aware applications where context consistency management is needed. With this performance improvement we get an impressive reduction of missed context inconsistencies for free. The context inconsistency resolution algorithm is a good solution in most domains for timely resolving context conflicts without human intervention. The fuzzy ontology approach seems a promising alternative to traditional context modeling but needs extensive further research in order to determine its real value in context-aware applications.
 
-\section{provisory appendix}
-
-[$L_1$, $L_2$, $L_3$, $A_1$, $A_2$] 
-Lecturing
-= .8 * .8 * .8 * .15 * .15 * c1
-= .01152 * c1
-= 0.9998
-Working
-= .05 * .05 * .05 * .15 * .15 * c1
-= 0.000002813 * c1
-= 0.0002
-
-[$L_1$, $A_1$, $A_2$, $O_1$, $O_2$]
-Lecturing
-= .8 * .15 * .15 * .05 * .05 * c
-= 0.000045 * c
-= 0.059
-Working
-= .05 * .15 * .15 * .8 * .8 * c
-= 0.00072 * c
-= 0.941
-
-
-
 \bibliographystyle{abbrv}
 %%use following if all content of bibtex file should be shown
 %\nocite{*}
 \bibliography{paper}
+
+\appendix
+\section{Fuzzy Ontology Calculations}
+Observed Context Set 1: $[L_1, L_2, L_3, A_1, A_2]$
+\begin{align}
+                          Lecturing &= .8 * .8 * .8 * .15 * .15 * c_1\\
+                                    &= .01152 * c_1\\
+                                    &= 0.9998\\
+                            Working &= .05 * .05 * .05 * .15 * .15 * c_1\\
+                                    &= 0.000002813 * c_1\\
+                                    &= 0.0002\\
+\end{align}
+Observed Context Set 2: $[L_1, A_1, A_2, O_1, O_2]$
+\begin{align}
+                          Lecturing &= .8 * .15 * .15 * .05 * .05 * c_2\\
+                                    &= 0.000045 * c_2\\
+                                    &= 0.059\\
+                            Working &= .05 * .15 * .15 * .8 * .8 * c_2\\
+                                    &= 0.00072 * c_2\\
+                                    &= 0.941\\
+\end{align}
 \end{document}
