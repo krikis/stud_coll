@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  3 MAR 2011 14:05
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  3 MAR 2011 14:35
 entering extended mode
  %&-line parsing enabled.
 **paper.tex
@@ -175,19 +175,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--103
  []
 
 File: cons_comp_tree.eps Graphic file (type eps)
-<cons_comp_tree.eps> [1
+<cons_comp_tree.eps>
+Overfull \hbox (1.626pt too wide) in paragraph at lines 118--119
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
+[1
 
 
-] (./paper.bbl) [2
+]
+File: cir.eps Graphic file (type eps)
+ <cir.eps>
+Overfull \hbox (1.626pt too wide) in paragraph at lines 130--131
+ [][] 
+ []
+
+(./paper.bbl) [2
 
 ] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 850 strings out of 495062
- 11221 string characters out of 3181987
- 67593 words of memory out of 3000000
- 4052 multiletter control sequences out of 15000+200000
- 19092 words of font info for 45 fonts, out of 3000000 for 9000
+ 874 strings out of 495062
+ 11550 string characters out of 3181987
+ 68593 words of memory out of 3000000
+ 4075 multiletter control sequences out of 15000+200000
+ 27222 words of font info for 63 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 29i,7n,21p,2092b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,7n,21p,1692b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on paper.dvi (2 pages, 10776 bytes).
+Output written on paper.dvi (2 pages, 11824 bytes).
