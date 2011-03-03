@@ -122,7 +122,18 @@ This is based on the assumption that contexts that are most stably perceived by 
 \section{Fuzzy Ontologies}
 In pervasive computing traditionally first order logic is used to model the environment of an application. This results in a so called ontology based context model and every observation that does not exactly fit in this model results into a conflict that leads to misadjusted behavior in applications unless they are timely detected and resolved~\cite{xu:2010:PCC}. Because it is impossible to perfectly model the unpredictive environment in which context-aware applications run, it would be nice if the context model was more resilient to unexpected observations. As we illustrate in the case study below, this can be obtained by using fuzzy ontologies.
 \subsection{Case Study}
-Suppose we want to build a context-aware application that has certain notion of teacher's activities to assist them in the best possible way (for instance automatically opening slides when a lecture starts). In the traditional approach we could build an ontology specifying where lectures take place that a lecture starts when the teacher stands at the lectern. If now an unpredicted observation is made (sensor cross read or teacher momentarily leaves the room), an inconsistency occurs that has to be resolved for the application to proceed normally. In the fuzzy ontology approach these unpredictive events can simply be modeled so that the ontology is more robust and always yields the most apt interpretation of the environment. A simplified example of such an ontology is depicted in Fig.~\ref{fig:fuzzy}.
+Suppose we want to build a context-aware application that has certain notion of teacher's activities to assist them in the best possible way (for instance automatically opening slides when a lecture starts). In the traditional approach we could build an ontology specifying where lectures take place and that a lecture starts when the teacher appears at the lectern. If now an unpredicted observation is made (sensor cross read or teacher momentarily leaves the room), an inconsistency occurs that has to be resolved for the application to proceed with normal operation. In the fuzzy ontology approach these unpredictive events can simply be modeled so that the ontology is more robust and always yields the most apt interpretation of the environment without conflict resolution. A simplified example of such an ontology is depicted in Fig.~\ref{fig:fuzzy}.
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=3.5in]{fuzzy}
+  \caption{Fuzzy ontology specifying teachers activities and their most probable location.}
+  \label{fig:fuzzy}
+\end{figure}
+Using this fuzzy ontology the relative probability of each specified higher-level context can be calculated from the contexts in the observation window. For instance the observation sequence [$L_1$, $L_2$, $L_3$, $A_1$, $A_2$] gives a relative probability of 0.9998 for `Lecturing' and 0.0002 for `Working', event though the observations are clearly conflicting, since the teacher clearly cannot be at the lectern and in the aisle at the same time. The sequence of [$L_1$, $A_1$, $A_2$, $O_1$, $O_2$] gives a 0.941 probability for `Working' and 0.059 for `Lecturing', even though the teacher stricly spoken cannot be at the lectern and in the office at the same time (see appendix for exact calculations). Regardless to the inconsistencies in the observed contexts the fuzzy ontology always yields the most probable higher-level context without the need for conflict detection and resolution.
+
+Interestingly the fuzzy ontology has some tree-like structure that allows for very efficient incremental partial probability calculation. The probability of a higher-level context is calculated by simply multiplying the probabilities of the observed contexts. When a new context is added to the observation window, the intermediate calculation result stored at a node (the root in Fig.~\ref{fig:fuzzy}) can simply be multiplied by de probability of the new observation in order to obtain the updated probability for a higher-level context. When a context dissapears from the observation window, the intermediate result can simply be divided by the context's probability to obtain an updated probability for a higher-leve context. 
+
+Note that it is possible to extend this simple fuzzy ontology with start and transition probabilities for the higher-level contexts as in hidden markov models\footnote{http://en.wikipedia.org/wikiHidden\_Markov\_model} and other information such as the expected lecture time window (also fuzzy of course).
 
 
 better modeling
@@ -136,6 +147,29 @@ Forward-backward algorithm
 \section{Discussion}
 
 \section{Conclusion}
+
+\section{provisory appendix}
+
+[$L_1$, $L_2$, $L_3$, $A_1$, $A_2$] 
+Lecturing
+= .8 * .8 * .8 * .15 * .15 * c1
+= .01152 * c1
+= 0.9998
+Working
+= .05 * .05 * .05 * .15 * .15 * c1
+= 0.000002813 * c1
+= 0.0002
+
+[$L_1$, $A_1$, $A_2$, $O_1$, $O_2$]
+Lecturing
+= .8 * .15 * .15 * .05 * .05 * c
+= 0.000045 * c
+= 0.059
+Working
+= .05 * .15 * .15 * .8 * .8 * c
+= 0.00072 * c
+= 0.941
+
 
 
 \bibliographystyle{abbrv}
