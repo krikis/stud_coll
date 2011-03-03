@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  28 FEB 2011 20:11
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  3 MAR 2011 10:38
 entering extended mode
  %&-line parsing enabled.
 **paper.tex
@@ -179,26 +179,63 @@ Missing character: There is no Â in font ptmri7t!
 Missing character: There is no   in font ptmri7t!
 Missing character: There is no Â in font ptmri7t!
 Missing character: There is no   in font ptmri7t!
- [1
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
+
+
+LaTeX Warning: Citation `kitware2003' on page 1 undefined on input line 123.
+
+
+LaTeX Warning: Citation `Max:1995:OMF' on page 1 undefined on input line 123.
+
+
+LaTeX Warning: Citation `notes2002' on page 1 undefined on input line 136.
+
+
+LaTeX Warning: Citation `ware:2004:IVP' on page 1 undefined on input line 161.
+
+
+LaTeX Warning: Citation `kindlmann:1999:SAG' on page 1 undefined on input line 
+170.
+
+
+LaTeX Warning: Citation `levoy:1989:DSV' on page 1 undefined on input line 174.
+
+
+[1
 
 
 ]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 218.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 218.
 File: sample.eps Graphic file (type eps)
+ <sample.eps>
 
-<sample.eps> [2] (./paper.bbl) [3
+LaTeX Warning: Citation `Lorensen:1987:MCA' on page 2 undefined on input line 3
+11.
 
-] (./paper.aux) ) 
+
+LaTeX Warning: Citation `Nielson:1991:TAD' on page 2 undefined on input line 32
+5.
+
+[2] (./paper.bbl
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+) [3
+
+] (./paper.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 901 strings out of 495062
- 12014 string characters out of 3181987
- 68959 words of memory out of 3000000
- 4099 multiletter control sequences out of 15000+200000
+ 902 strings out of 495062
+ 12027 string characters out of 3181987
+ 67989 words of memory out of 3000000
+ 4100 multiletter control sequences out of 15000+200000
  30147 words of font info for 70 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 29i,8n,21p,835b,273s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,8n,21p,854b,273s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on paper.dvi (3 pages, 22280 bytes).
+Output written on paper.dvi (3 pages, 21040 bytes).

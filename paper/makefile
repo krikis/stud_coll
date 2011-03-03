@@ -23,7 +23,7 @@
 DVIFILES = paper.dvi
 MAINTEXFILE = $(DVIFILES:.dvi=.tex)
 SUBTEXFILES = 
-BIBFILES = template.bib
+BIBFILES = paper.bib
 
 #switch = to # when using ps2pdf in win32 (mingw/msys), i.e. uncomment 2nd line
 #E=\=
