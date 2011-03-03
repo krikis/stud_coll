@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  3 MAR 2011 15:26
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  3 MAR 2011 15:39
 entering extended mode
  %&-line parsing enabled.
 **paper.tex
@@ -97,102 +97,102 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 ) (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 81.
 
 (/opt/local/share/texmf-texlive-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \big@size=\dimen107
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 87.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 89.
 
 (/opt/local/share/texmf-texlive-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 87
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 89
 .
 
 (/opt/local/share/texmf-texlive-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 87
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 89
 .
 
 (/opt/local/share/texmf-texlive-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 87
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 89
 .
 
 (/opt/local/share/texmf-texlive-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 87
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 89
 .
 
 (/opt/local/share/texmf-texlive-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 87.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
 File: diamondrule.eps Graphic file (type eps)
 
 <diamondrule.eps>
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 87.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <9> not available
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 87.
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 89.
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--105
 
  []
 
 File: cons_comp_tree.eps Graphic file (type eps)
 <cons_comp_tree.eps>
-Overfull \hbox (1.626pt too wide) in paragraph at lines 118--119
+Overfull \hbox (1.626pt too wide) in paragraph at lines 120--121
  [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
 [1
 
 
 ]
 File: cir.eps Graphic file (type eps)
  <cir.eps>
-Overfull \hbox (1.626pt too wide) in paragraph at lines 130--131
+Overfull \hbox (1.626pt too wide) in paragraph at lines 132--133
  [][] 
  []
 
@@ -204,10 +204,10 @@ Underfull \vbox (badness 1635) has occurred while \output is active []
 Here is how much of TeX's memory you used:
  874 strings out of 495062
  11550 string characters out of 3181987
- 68593 words of memory out of 3000000
+ 68645 words of memory out of 3000000
  4075 multiletter control sequences out of 15000+200000
  27222 words of font info for 63 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  29i,7n,21p,1712b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on paper.dvi (2 pages, 13404 bytes).
+Output written on paper.dvi (2 pages, 13420 bytes).
