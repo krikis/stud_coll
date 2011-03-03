@@ -86,15 +86,17 @@ Apart from resolving conflicting contexts it is also possible to represent them 
 
 \maketitle
 
-% WHAT
+- WHAT\\
 Conflict detection\\
 Conflict resolution\\
 Inconsistent ontologies\\
-% WHY
+~\\
+- WHY\\
 Performance\\
 Automate resolution\\
 Better model context\\
-% HOW
+~\\
+- HOW\\
 PCC\\
 CIR\\
 HMM - Fuzzy set theory\\
@@ -103,6 +105,15 @@ HMM - Fuzzy set theory\\
 
 
 \section{Related Work}
+Pervasive or ubiquitous computing is a fast-developing discipline that has been receiving increasing attention from both researchers and software developers~\cite{xu:2010:PCC}. In the past decade, many context-aware systems have been developed, ranging from smart room environments to warehouse and supply chain management systems. Lots of effort has been put into building middleware infrastructures that handle vast amounts of sensory data and extract the context information relevant for pervasive applications. Examples of such systems are CoBrA and CORTEX~\cite{bu:2006:CCM}. Various modeling approaches have been proposed for capturing context information, of which the ontology based context model appears to be most promising for most pervasive applications~\cite{bu:2006:CCM}.
+
+Context management for consistency however has not been adequately studied in the existing literature. None of the studies on context-awareness discusses a way for detecting context inconsistencies for reliable pervasive computing~\cite{xu:2010:PCC, bu:2006:CCM}. Even though there has been related research going on in other disciplines as artificial intelligence and software engineering, it doesn't provide adequate support for context inconsistency detection in ubuquitous computing. In addition the strategies proposed in literature for resolving context conflicts are not suited for pervasive computing. Some are based on assumptions that may not apply to general pervasive environments. Other require human participation for conflict resolution, which is usually expensive and slow for pervasive computing~\cite{xu:2010:PCC}. Finally no research has been done on the potential of fuzzy ontologies for representing context inconsistencies in the environment instead of trying to resolve them~\cite{ko:2009:IOFO}.
+
+In this article we aim at putting a milestone for context management by proposing an efficient inconsistency detection algorithm based on a constraint language extending the traditional ontology based context model. In addition we put forward a conflict resolution algorithm which is based on a context reliability heuristic. Finally the use of fuzzy ontologies representing context inconsistencies as a promising alternative to conflict resolution is explored.
+
+
+
+
 
 
 
@@ -111,7 +122,15 @@ HMM - Fuzzy set theory\\
 
 \section{Context Inconsistency Resolution}
 
-\section{Inconsistent Ontologies}
+\section{Fuzzy Ontologies}
+
+better modeling
+training required
+maybe slower
+extensive research necessary
+
+HMM
+Forward-backward algorithm
 
 \section{Discussion}
 
