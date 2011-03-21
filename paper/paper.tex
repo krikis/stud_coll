@@ -110,6 +110,27 @@ Because intermediate values are retained in the tree nodes after calculation the
 
 With their partial constraint checking algorithm Xu et \textit{al.} attained a time complexity between $O(n)$ for the worst case and $O(1)$ for the best case when a context was added to the set and $O(1)$ when a context was removed. Compared to traditional constraint checking with an overall complexity of $O(n)$, this is a dramatical improvement. In their experiments Xu et \textit{al.} showed that their performance is 15 times better than the traditional approach and in a case study the inconsistency miss rate dropped from $52.2\%$ in traditional checking to $0.1\%$ with partial checking~\cite{xu:2010:PCC}.
 
+\section{From Ontology to CCT}
+As stated above the Partial Constraint Checking (PCC) algorithm is much faster than Entire Constraint Checking due to the fact that a Consistency Computation Tree (CCT) is used to store the constraints belonging to a (set of) context(s). We also stated that the ontology based context model is the most promising type of model to capture context information. Although the context model appears as a tree (see Fig. \ref{fig:ont}), the PCC algorithm cannot be directly applied to it.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=3.5in]{Ontology.eps}
+  \caption{An example of an ontology based context model Source:~\cite{bu:2006:CCM}}
+  \label{fig:ont}
+\end{figure}
+
+The model is actually a part of a larger ontology, but it is sufficient for this section. Now it needs to be transformed into a CCT for PCC. With a CCT the main focus should be on the context set of a single entity in the model. The transformation itself can be done automatically with a depth-first search algorithm, but there is no such algorithm available at this time. However, we can give a few examples of the CCT based on this ontology model. The context set of the entity \textit{Student} will be focused on. Lets say that the entity \textit{Student} is located in the \textit{Place} entity \textit{Road}, then the CCT will look as the upper tree in Fig. \ref{fig:cct1}.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=3.5in]{smallCCT1.eps}
+  \caption{The CCTs of \textit{Student}}
+  \label{fig:cct1}
+\end{figure}
+
+If the system suddenly decides that \textit{Student} is located in a \textit{Lab}, then the tree will be updated to the lower tree. Note that the system can decide in a multitude of ways that \textit{Student} is located in the \textit{Lab} by for example invalidating the earlier constraint branch after a certain amount of time or by for example basing the new \textit{Place} on the information in a new context set. Also note that the leaf of a branch cannot contain an entity that is not available in the context model. So \textit{Student} cannot be located in, for example, \textit{Car}, because it is not part of the model. Even if the location in a context would be \textit{Car}, then the system would consider the location as an inconsistency in the context and detect it very quickly with PCC.
+
 \section{Context Inconsistency Resolution}
 Now that we have an efficient method for detecting inconsistencies the task of resolving the conflicts remains. As discussed above the strategies for conflict resolution in literature are not very suited for pervasive computing because their assumptions do not apply or they require human participation~\cite{xu:2010:PCC}. What really is needed is an algorithm that in the case of a conflict between two or more contexts decides which context has the highest reliability and retains that context. Bu et \textit{al.} show us that this is possible through extending the ontology based context model with additional information about the context's status and temporal properties~\cite{bu:2006:CCM}. More specifically they propose an algorithm that for every conflict set retains the context with the highest \textit{relative frequency}: frequency of context updates relative to update interval and context age (see Fig.~\ref{fig:cir}). 
 \begin{figure}[htb]
@@ -141,6 +162,8 @@ Note that it is possible to extend the simple fuzzy ontology from the use case b
 
 \section{Discussion}
 In this article we started with presenting partial constraint checking: an efficient algorithm for timely detecting inconsistencies in huge sets of contexts which change very frequently. Partial constraint checking was 15 times as efficient as the traditional gready approach and reduced the conflict detection miss rate from 52.2\% to 0.1\%. This algorithm is clearly a dramatic improvement of the traditional approach and vital to any context aware application that has to handle high-frequently generated contexts.
+
+Then we have shown examples of CCTs of entitities in an ontology based context model. We have not shown an algorithm on how to do this efficiently as we don't know the formal definition of OWL at this point in time. However, with the definitions of OWL one can create a depth-first search algorithm that transforms an ontology in multiple CCTs (one for each leaf entity in the model).
 
 After that we shed light on ways to resolve the detected conflicts and discussed a context inconsistency resolution algorithm that estimates the reliability of conflicting contexts and only retains the most reliable context from every conflict set. Using this algorithm allows for timely conflict resolution at runtime without the need for human participation. The algorithm is a valuable addition to the research on conflict resolution in pervasive computing, but when applying it one has to verify the aptness of the heuristic used for context reliability estimations in the domain at hand. In particular the assumption that contexts with the highest relative frequency are most reliable has to apply in the domain.
 

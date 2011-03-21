@@ -105,7 +105,7 @@ $(MAINTEXFILE) : $(SUBTEXFILES) $(BIBFILES)
 	"-dColorImageFilter$E/FlateEncode" \
 	"-dGrayImageFilter$E/FlateEncode" \
 	"-dMonoImageFilter$E/FlateEncode" \
-	$< template.pdf
+	$< paper.pdf
 
 #				$(PDFLATEX) $<
 
@@ -121,12 +121,12 @@ $(MAINTEXFILE) : $(SUBTEXFILES) $(BIBFILES)
 	"-dMonoImageFilter=/FlateEncode" \
 	"-dDownsampleGrayImages=false" \
 	"-dDownsampleColorImages=false" \
-	$< template.pdf
+	$< paper.pdf
 #                               $(PDFLATEX) $<
 
 # cleans anything that can be re-generated automatically, plus emacs backups
 clean: 
 				rm -f *.aux *.log *.bbl *.blg *.brf *.cb *.ind *.idx *.ilg	\
-				*.inx *.toc *.out $(DVIFILES) $(PSFILES) template.pdf *~
+				*.inx *.toc *.out $(DVIFILES) $(PSFILES) paper.pdf *~
 
 .PHONY : all pdf ps dvi clean $(MAINTEXFILE)
