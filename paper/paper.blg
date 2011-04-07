@@ -2,54 +2,53 @@ This is BibTeX, Version 0.99c (TeX Live/MacPorts 2009_6)
 The top-level auxiliary file: paper.aux
 The style file: abbrv.bst
 Database file #1: paper.bib
-I was expecting a `,' or a `}'---line 34 of file paper.bib
- :   
- :   @article{Buckley1995245,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+Warning--string name "march" is undefined
+--line 56 of file paper.bib
+Warning--string name "march" is undefined
+--line 69 of file paper.bib
 Name 1 in "Chang Xu, S.C. Cheung, W.K. Chan, and Chunyang Ye" has a comma at the end for entry xu:2010:PCC
 while executing---line 1049 of file abbrv.bst
 Name 1 in "Chang Xu, S.C. Cheung, W.K. Chan, and Chunyang Ye" has a comma at the end for entry xu:2010:PCC
 while executing---line 1090 of file abbrv.bst
-You've used 4 entries,
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            530 strings with 4678 characters,
-and the built_in function-call counts, 1804 in all, are:
-= -- 164
-> -- 121
-< -- 2
-+ -- 49
-- -- 44
-* -- 148
-:= -- 311
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 33
+            540 strings with 4773 characters,
+and the built_in function-call counts, 2485 in all, are:
+= -- 244
+> -- 102
+< -- 4
++ -- 42
+- -- 34
+* -- 163
+:= -- 383
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 54
-empty$ -- 111
-format.name$ -- 44
-if$ -- 362
+cite$ -- 6
+duplicate$ -- 104
+empty$ -- 199
+format.name$ -- 34
+if$ -- 549
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 5
-newline$ -- 23
-num.names$ -- 8
-pop$ -- 32
+int.to.str$ -- 6
+missing$ -- 7
+newline$ -- 33
+num.names$ -- 12
+pop$ -- 39
 preamble$ -- 1
-purify$ -- 30
+purify$ -- 29
 quote$ -- 0
-skip$ -- 42
+skip$ -- 89
 stack$ -- 0
-substring$ -- 101
-swap$ -- 14
-text.length$ -- 2
+substring$ -- 184
+swap$ -- 40
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 14
+type$ -- 22
 warning$ -- 0
-while$ -- 13
-width$ -- 5
-write$ -- 47
-(There were 3 error messages)
+while$ -- 21
+width$ -- 7
+write$ -- 69
+(There were 2 error messages)

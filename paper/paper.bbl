@@ -1,5 +1,17 @@
 \begin{thebibliography}{1}
 
+\bibitem{1276875}
+G.~Biegel and V.~Cahill.
+\newblock A framework for developing mobile, context-aware applications.
+\newblock In {\em Pervasive Computing and Communications, 2004. PerCom 2004.
+  Proceedings of the Second IEEE Annual Conference on}, pages 361 -- 365, 2004.
+
+\bibitem{bu:2006:CCM}
+Y.~Bu, S.~Chen, J.~Li, X.~Tao, and J.~Lu.
+\newblock {\em Context Consistency Management Using Ontology Based Model},
+  volume 4254, pages 741--755.
+\newblock Springer Berlin / Heidelberg, 2006.
+
 \bibitem{Buckley1995245}
 J.~J. Buckley.
 \newblock Fuzzify.
@@ -12,13 +24,11 @@ W.~C. Chang~Xu, S.C.~Cheung and C.~Ye.
 \newblock {\em ACM Transactions on Software Engineering and Methodology}, 19,
   2010.
 
-\bibitem{bu:2006:CCM}
-T.~Grust, H.~H{\"o}pfner, A.~Illarramendi, S.~Jablonski, M.~Mesiti,
-  S.~M{\"u}ller, P.-L. Patranjan, K.-U. Sattler, M.~Spiliopoulou, J.~Wijsen,
-  Y.~Bu, S.~Chen, J.~Li, X.~Tao, and J.~Lu.
-\newblock {\em Context Consistency Management Using Ontology Based Model},
-  volume 4254, pages 741--755.
-\newblock Springer Berlin / Heidelberg, 2006.
+\bibitem{1276865}
+H.~Chen, T.~Finin, and A.~Joshi.
+\newblock Semantic web in the context broker architecture.
+\newblock In {\em Pervasive Computing and Communications, 2004. PerCom 2004.
+  Proceedings of the Second IEEE Annual Conference on}, pages 277 -- 286, 2004.
 
 \bibitem{ko:2009:IOFO}
 H.~Kong, G.~Xue, X.~He, and S.~Yao.
