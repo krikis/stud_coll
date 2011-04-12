@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  12 APR 2011 20:32
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  12 APR 2011 21:51
 entering extended mode
  %&-line parsing enabled.
 **paper.tex
@@ -218,38 +218,42 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <9> not available
 (Font)              Font shape `OT1/phv/b/sc' tried instead on input line 90.
 File: cons_comp_tree.eps Graphic file (type eps)
  <cons_comp_tree.eps>
-Overfull \hbox (1.626pt too wide) in paragraph at lines 105--106
+Overfull \hbox (1.626pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
 [1
 
 
 ]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 111.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 111.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 111.
 File: cir.eps Graphic file (type eps)
  <cir.eps>
-Overfull \hbox (1.626pt too wide) in paragraph at lines 117--118
+Overfull \hbox (1.626pt too wide) in paragraph at lines 118--119
  [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
+
+Underfull \vbox (badness 1635) has occurred while \output is active []
+
 File: fuzzy.eps Graphic file (type eps)
+
 <fuzzy.eps>
-Overfull \hbox (1.626pt too wide) in paragraph at lines 130--131
+Overfull \hbox (1.626pt too wide) in paragraph at lines 131--132
  [][] 
  []
 
 [2]
 File: fuzzy2.eps Graphic file (type eps)
  <fuzzy2.eps>
-Overfull \hbox (1.626pt too wide) in paragraph at lines 141--142
+Overfull \hbox (1.626pt too wide) in paragraph at lines 142--143
  [][] 
  []
 
@@ -263,4 +267,4 @@ Here is how much of TeX's memory you used:
  28 hyphenation exceptions out of 8191
  29i,8n,21p,1959b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on paper.dvi (3 pages, 28952 bytes).
+Output written on paper.dvi (3 pages, 28780 bytes).
