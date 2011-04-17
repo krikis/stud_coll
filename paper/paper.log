@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  12 APR 2011 21:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=latex 2011.2.22)  17 APR 2011 22:46
 entering extended mode
  %&-line parsing enabled.
 **paper.tex
@@ -222,16 +222,16 @@ Overfull \hbox (1.626pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
+[1
+
+
+]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
-[1
-
-
-]
 File: cir.eps Graphic file (type eps)
  <cir.eps>
 Overfull \hbox (1.626pt too wide) in paragraph at lines 118--119
@@ -240,11 +240,7 @@ Overfull \hbox (1.626pt too wide) in paragraph at lines 118--119
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
-
-Underfull \vbox (badness 1635) has occurred while \output is active []
-
 File: fuzzy.eps Graphic file (type eps)
-
 <fuzzy.eps>
 Overfull \hbox (1.626pt too wide) in paragraph at lines 131--132
  [][] 
@@ -265,6 +261,6 @@ Here is how much of TeX's memory you used:
  4651 multiletter control sequences out of 15000+200000
  29891 words of font info for 69 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 29i,8n,21p,1959b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,8n,21p,1963b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on paper.dvi (3 pages, 28780 bytes).
+Output written on paper.dvi (3 pages, 28960 bytes).
