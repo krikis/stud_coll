@@ -1,3 +1,5 @@
+make -C ./paper/; open ./paper/paper.dvi
+
 Created by Torsten Moeller (vis@cs.sfu.ca), April 6 2004
 modified by Steven Bergner and Torsten Moeller, June 30 2006
 last modified by James Peltier and Torsten Moeller, March 28, 2007
